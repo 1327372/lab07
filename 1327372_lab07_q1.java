@@ -1,10 +1,12 @@
-package mvenner3_lab07;
+package 1327372_lab07;
 
 //Import the scanner.
 import java.util.Scanner;
 
-public class mvenner3_lab07_q1 {
+public class 1327372_lab07_q1 {
 
+	// Copying me gets us both zero. Just use this as inspriation.
+	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		// Declare required variables.
@@ -27,6 +29,8 @@ public class mvenner3_lab07_q1 {
 			System.out.println("Please enter string #" + (i + 1) + ":");
 			inputs[i] = inputScanner.next();
 		}
+		
+		// Run the array through the sorting method.
 		sortLength(inputs);
 
 		System.out.println("\nThe array in order of length from smallest to largest is:");
@@ -36,6 +40,7 @@ public class mvenner3_lab07_q1 {
 		}
 	}
 
+	// Method to sort the strings.
 	public static void sortLength(String[] inputs) {
 		//Go through each array string.
 		for (int i = inputs.length - 1; i >= 0; i--) {
@@ -45,7 +50,7 @@ public class mvenner3_lab07_q1 {
 					//Create a placeholder variable to hold a string.
 					String temp = inputs[j + 1];
 					//Swap the two strings.
-					inputs[j + 1] = inputs[j];
+					inputs[j + 1] = inputfs[j];
 					inputs[j] = temp;
 				}
 			}

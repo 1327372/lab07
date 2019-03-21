@@ -1,9 +1,11 @@
-package mvenner3_lab07;
+package 1327372_lab07;
 
 // Import the scanner.
 import java.util.Scanner;
 
-public class mvenner3_lab07_q2 {
+public class 1327372_lab07_q2 {
+	
+	// Copying me gets us both zero. Just use this as inspriation.
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

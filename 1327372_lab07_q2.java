@@ -7,6 +7,7 @@ public class 1327372_lab07_q2 {
 	
 	// Copying me gets us both zero. Just use this as inspriation.
 
+	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		// Declare required variables.
